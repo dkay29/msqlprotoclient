@@ -5,7 +5,7 @@ import com.dkay229.msql.proto.Dbserver;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 
-public class DatabaseClient {
+public class DatabaseClientExample {
     public static void main(String[] args) {
         // Step 1: Create a channel to the server at localhost:8080
         ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 8080)
